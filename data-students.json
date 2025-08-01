@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": "101",
+      "name": "Laptop Dell XPS 13",
+      "category": "Máy tính",
+      "price": 29990000,
+      "stock": 15,
+      "description": "Laptop mỏng nhẹ, hiệu năng cao, màn hình cảm ứng 4K.",
+      "createdAt": "2024-06-01T10:00:00.000Z"
+    },
+    {
+      "id": "102",
+      "name": "Chuột Logitech MX Master 3",
+      "category": "Phụ kiện",
+      "price": 2290000,
+      "stock": 50,
+      "description": "Chuột không dây cao cấp, thiết kế công thái học.",
+      "createdAt": "2024-06-03T11:15:00.000Z"
+    },
+    {
+      "id": "103",
+      "name": "Màn hình LG 27'' 4K UHD",
+      "category": "Màn hình",
+      "price": 7990000,
+      "stock": 20,
+      "description": "Màn hình chuyên đồ họa, hỗ trợ HDR10, độ phân giải 4K.",
+      "createdAt": "2024-06-05T09:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Phạm Minh Tuấn",
+      "username": "tuanpm",
+      "password": "tuan123",
+      "department": "Kỹ thuật",
+      "role": "Kỹ sư phần mềm",
+      "performanceScore": 8.9,
+      "reviews": [
+        {
+          "criteria": "Chất lượng công việc",
+          "score": 9,
+          "comment": "Hoàn thành đúng hạn, chất lượng cao",
+          "date": "2024-07-01T09:00:00.000Z",
+          "reviewer": "Trưởng phòng An"
+        },
+        {
+          "criteria": "Tinh thần làm việc nhóm",
+          "score": 8.5,
+          "comment": "Hợp tác tốt với đồng nghiệp",
+          "date": "2024-07-05T14:30:00.000Z",
+          "reviewer": "Trưởng nhóm Hùng"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Lê Thị Mai",
+      "username": "mailt",
+      "password": "mai123",
+      "department": "Nhân sự",
+      "role": "Chuyên viên tuyển dụng",
+      "performanceScore": 7.4,
+      "reviews": [
+        {
+          "criteria": "Tuyển dụng hiệu quả",
+          "score": 7,
+          "comment": "Cần cải thiện thời gian xử lý hồ sơ",
+          "date": "2024-06-25T10:00:00.000Z",
+          "reviewer": "Trưởng phòng Hương"
+        }
+      ]
+    }
+  ]
+
+}
+
