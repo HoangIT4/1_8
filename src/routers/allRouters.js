@@ -7,15 +7,15 @@ const routers = [
   // },
   {
     path: '/login',
-    component: lazy(() => import('@components/LoginForm.jsx')),
+    component: lazy(() => import('@pages/LoginPage.jsx')),
   },
   {
     path: '/register',
-    component: lazy(() => import('@components/RegisterPage.jsx')),
+    component: lazy(() => import('@pages/RegisterPage.jsx')),
   },
   {
     path: '/add-user',
-    component: lazy(() => import('@components/RegisterPage.jsx')),
+    component: lazy(() => import('@pages/RegisterPage.jsx')),
   },
   {
     path: '/',

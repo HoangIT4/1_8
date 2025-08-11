@@ -5,8 +5,8 @@ import { AuthProvider } from '@/context/AuthProvider';
 import { useAuth } from '@/hooks/useAuth.js';
 
 import LoginPage from './pages/LoginPage';
-import RegisterForm from '@components/RegisterPage.jsx';
-import EditUser from '@components/User/EditUser.jsx';
+import RegisterForm from '@pages/RegisterPage.jsx';
+
 import HomePage from '@pages/HomePage.jsx';
 
 function AppRoutes() {
@@ -16,19 +16,19 @@ function AppRoutes() {
     <Routes>
       {/* Public */}
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/register" element={<RegisterForm />} />
+      <Route path="/register" element={<RegisterForm />} />r
 
       {/* Protected */}
-      {user ? (
-        <>
-          <Route path="/" element={<EditUser />} />
-          {/* <Route path="/add-user" element={<AddUser />} /> */}
-          {/* <Route path="/edit-user/:id" element={<EditUserPage />} /> */}
-          {/* <Route path="/view-user/:id" element={<ViewUserPage />} /> */}
-        </>
-      ) : (
-        <Route path="*" element={<Navigate to="/login" replace />} />
-      )}
+      {/*{user ? (*/}
+      {/*  <>*/}
+      {/*    <Route path="/" element={<EditUser />} />*/}
+      {/*    /!* <Route path="/add-user" element={<AddUser />} /> *!/*/}
+      {/*    /!* <Route path="/edit-user/:id" element={<EditUserPage />} /> *!/*/}
+      {/*    /!* <Route path="/view-user/:id" element={<ViewUserPage />} /> *!/*/}
+      {/*  </>*/}
+      {/*) : (*/}
+      {/*  <Route path="*" element={<Navigate to="/login" replace />} />*/}
+      {/*)}*/}
     </Routes>
   );
 }
